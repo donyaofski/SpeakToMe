@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Multilingual Picture Dictionary</title>
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <main>
+    <h1>Learn Languages with Pictures</h1>
+    <div class="image-container">
+      <img src="assets/cat.jpg" alt="Cat" id="mainImage" />
+      <p id="wordLabel">Cat</p>
+    </div>
+    <div class="flags">
+      <img src="assets/flags/us.png" alt="English" onclick="changeLanguage('en')" />
+      <img src="assets/flags/de.png" alt="German" onclick="changeLanguage('de')" />
+      <img src="assets/flags/ir.png" alt="Persian" onclick="changeLanguage('fa')" />
+    </div>
+  </main>
+  <script src="script.js"></script>
+</body>
+</html>
